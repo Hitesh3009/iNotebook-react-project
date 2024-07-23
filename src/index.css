@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inp-bottom-line{
+    @apply outline-none border-b-2 border-b-black focus:border-b-[3px] focus:transition focus:border-b-violet-500 focus:delay-300 text-sm md:text-base
+}
